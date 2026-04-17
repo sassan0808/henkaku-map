@@ -1,14 +1,11 @@
- name: Deploy to GitHub Pages
-
-  "on":
+name: Deploy to GitHub Pages
+  on:
     push:
       branches: [main]
-
   permissions:
     contents: read
     pages: write
     id-token: write
-
   jobs:
     build:
       runs-on: ubuntu-latest
@@ -23,7 +20,6 @@
         - uses: actions/upload-pages-artifact@v3
           with:
             path: ./build
-
     deploy:
       needs: build
       runs-on: ubuntu-latest
