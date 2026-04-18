@@ -64,8 +64,14 @@ const config: Config = {
       },
       items: [
         {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          type: 'doc',
+          docId: '課題マップ/概要',
+          position: 'left',
+          label: '課題から探す',
+        },
+        {
+          type: 'doc',
+          docId: '知見・意思決定の変革/概要',
           position: 'left',
           label: '変革手段を探す',
         },
@@ -79,6 +85,16 @@ const config: Config = {
     footer: {
       style: 'dark',
       links: [
+        {
+          title: '課題から探す',
+          items: [
+            { label: 'A. 意思決定・戦略', to: '/docs/課題マップ/A_意思決定・戦略' },
+            { label: 'B. 人・組織文化', to: '/docs/課題マップ/B_人・組織文化' },
+            { label: 'C. 実行力・オペレーション', to: '/docs/課題マップ/C_実行力・オペレーション' },
+            { label: 'D. 知見・情報', to: '/docs/課題マップ/D_知見・情報' },
+            { label: 'E. 成長・外部連携', to: '/docs/課題マップ/E_成長・外部連携' },
+          ],
+        },
         {
           title: '変革手段',
           items: [

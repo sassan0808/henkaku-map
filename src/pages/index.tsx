@@ -19,9 +19,14 @@ function HomepageHeader() {
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link
+            className="button button--primary button--lg"
+            to="/docs/課題マップ/概要">
+            課題から探す →
+          </Link>
+          <Link
             className="button button--secondary button--lg"
             to="/docs/知見・意思決定の変革/概要">
-            変革手段マップを見る →
+            変革手段を探す
           </Link>
         </div>
       </div>
