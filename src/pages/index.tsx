@@ -25,7 +25,7 @@ function HomepageHeader() {
           </Link>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/知見・意思決定の変革/概要">
+            to="/docs/変革マップ/知見・意思決定の変革/概要">
             変革手段を探す
           </Link>
         </div>
