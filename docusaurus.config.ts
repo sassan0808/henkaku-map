@@ -81,6 +81,12 @@ const config: Config = {
           label: '症状チェック',
         },
         {
+          type: 'doc',
+          docId: 'フレームワーク・参考書/概要',
+          position: 'left',
+          label: '理論・参考書',
+        },
+        {
           href: 'https://github.com/sassan0808/henkaku-map',
           label: 'GitHub',
           position: 'right',
