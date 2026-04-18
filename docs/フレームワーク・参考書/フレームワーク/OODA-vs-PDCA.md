@@ -1,7 +1,7 @@
 ---
 title: OODA vs PDCA — 変化の時代の意思決定サイクル
 sidebar_position: 1
-tags: [フレームワーク, OODA, PDCA, 意思決定, アジャイル]
+tags: [思考モデル, OODA, PDCA, 意思決定, アジャイル]
 ---
 
 ## PDCAとは何か

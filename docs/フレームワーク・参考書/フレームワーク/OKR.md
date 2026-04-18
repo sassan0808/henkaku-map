@@ -1,7 +1,7 @@
 ---
 title: OKR — 自律的に動く目標設定の仕組み
 sidebar_position: 3
-tags: [フレームワーク, OKR, 目標設定, 評価制度, 自律]
+tags: [目標管理手法, OKR, 目標設定, 評価制度, 自律]
 ---
 
 ## OKRとは何か

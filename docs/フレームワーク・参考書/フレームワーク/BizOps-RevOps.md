@@ -1,7 +1,7 @@
 ---
 title: BizOps・RevOps — データで事業運営を一気通貫する
 sidebar_position: 6
-tags: [フレームワーク, BizOps, RevOps, データ活用, AI, 組織設計, オペレーション]
+tags: [オペレーション手法, BizOps, RevOps, データ活用, AI, 組織設計]
 ---
 
 ## 一言で言うと

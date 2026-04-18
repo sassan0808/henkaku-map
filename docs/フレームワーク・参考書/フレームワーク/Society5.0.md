@@ -1,7 +1,7 @@
 ---
 title: Society 5.0 — データ統合が社会を変える、日本が目指す次の姿
 sidebar_position: 7
-tags: [フレームワーク, Society5.0, DX, データ統合, AI, 社会変革]
+tags: [社会ビジョン, Society5.0, DX, データ統合, AI, 社会変革]
 ---
 
 ## 一言で言うと
