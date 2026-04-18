@@ -1,41 +1,106 @@
-# Website
+# 変革手段の地図
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+**組織変革の「打ち手」を、課題・理論・実践が循環するナレッジベースとして体系化したサイト。**
 
-## Installation
+👉 [https://sassan0808.github.io/henkaku-map/](https://sassan0808.github.io/henkaku-map/)
 
-```bash
-yarn
+---
+
+## このプロジェクトが生まれた背景
+
+「うちの組織を変えたい」と思ったとき、世の中には情報が溢れている。
+
+ブログ記事、ビジネス書、コンサルの資料——それぞれに価値はある。しかし、どれも**部分最適の情報**だ。
+
+- 「OKRを導入すべき」という記事は、なぜ自社の評価制度がその障壁になっているかを教えてくれない
+- 「心理的安全性が重要」という本は、それをどう実行プロセスの変革とつなげるかを教えてくれない
+- 「DXを推進しよう」という掛け声は、なぜデータが部門間でサイロ化しているかの構造を教えてくれない
+
+**症状（課題）→ 打ち手（変革手段）→ 理論的根拠（フレームワーク・書籍）が、ひとつの循環構造としてつながった情報はなかった。**
+
+このサイトはその空白を埋めるために作っている。
+
+---
+
+## 何ができるサイトか
+
+### 1. 症状から探す（課題マップ）
+
+「うちはこういう問題がある」という入口から探せる。
+意思決定・人・組織・実行力・売上・資金・AI対応など **8カテゴリ・40以上の症状** を収録。
+症状ごとに「真因の仮説」と「関連する変革手段」がリンクされている。
+
+### 2. 打ち手を探す（変革マップ）
+
+組織変革の手段を **8つの柱** で体系化。
+
+| 柱 | 代表的な打ち手 |
+|---|---|
+| 知見・意思決定の変革 | スポットコンサル、市場調査 |
+| 人・能力の変革 | 社内研修、越境学習 |
+| 体制・人材の変革 | プロジェクト型組織設計、タレントマネジメント |
+| 実行・プロセスの変革 | BPR、ツール導入、PMO |
+| 売上・収益の変革 | 営業プロセス改革、マーケティング変革、CS、RevOps |
+| 販路・外部資本の変革 | EC・D2C、アライアンス、M&A |
+| 資金・財務の変革 | 補助金、融資、出資 |
+| データ・AI活用の変革 | データ基盤整備、AIリテラシー、AI活用推進 |
+
+### 3. 理論的根拠を理解する（理論・手法・参考書）
+
+各変革手段の「なぜ機能するか」を支える理論・概念・書籍をまとめている。
+OKR、アジャイル、心理的安全性、両利きの経営、チームトポロジー、RevOps、Society 5.0、ダブルダイアモンドなど。
+
+### 4. 症状チェックリスト
+
+自社の症状にチェックを入れると、優先度の高い変革手段が自動でレコメンドされる。
+
+---
+
+## このサイトの設計思想：循環するナレッジベース
+
+一般的な情報サイトは「記事の集まり」だ。それぞれが完結しており、文脈がつながっていない。
+
+このサイトは **3層が双方向にリンクする循環構造** で設計されている。
+
+```
+課題マップ（症状・問題）
+    ↕ 双方向リンク
+変革マップ（打ち手・手段）
+    ↕ 双方向リンク
+理論・手法・参考書（根拠・概念）
 ```
 
-## Local Development
+読者がどこから入っても、全体像に到達できる。
+「この打ち手をなぜやるか」「この理論はどの症状に効くか」「この症状にはどんな理論的背景があるか」——どの方向にも辿れる。
+
+---
+
+## 技術構成
+
+- **フレームワーク：** [Docusaurus v3](https://docusaurus.io/)
+- **ホスティング：** GitHub Pages
+- **インタラクティブ機能：** React + TypeScript（チェックリストページ）
+- **状態管理：** localStorage（チェック状態の保存）
+
+---
+
+## ローカル開発
 
 ```bash
-yarn start
+npm install
+npm start      # 開発サーバー起動（http://localhost:3000）
+npm run build  # 本番ビルド
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+---
 
-## Build
+## コントリビューション
 
-```bash
-yarn build
-```
+現在は個人プロジェクトとして育てています。
+内容への意見・追加してほしい変革手段・課題のフィードバックは [Issues](https://github.com/sassan0808/henkaku-map/issues) へ。
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+---
 
-## Deployment
+## ライセンス
 
-Using SSH:
-
-```bash
-USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+MIT
