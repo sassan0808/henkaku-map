@@ -82,6 +82,12 @@ const config: Config = {
         },
         {
           type: 'doc',
+          docId: 'プロ人材シェアの活用/概要',
+          position: 'left',
+          label: 'プロ人材シェアとは',
+        },
+        {
+          type: 'doc',
           docId: 'フレームワーク・参考書/概要',
           position: 'left',
           label: '理論・参考書',
