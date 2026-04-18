@@ -76,6 +76,11 @@ const config: Config = {
           label: '変革手段を探す',
         },
         {
+          to: '/checklist',
+          position: 'left',
+          label: '症状チェック',
+        },
+        {
           href: 'https://github.com/sassan0808/henkaku-map',
           label: 'GitHub',
           position: 'right',
