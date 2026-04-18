@@ -112,6 +112,7 @@ const config: Config = {
             { label: 'E. 成長・外部連携', to: '/docs/課題マップ/E_成長・外部連携' },
             { label: 'F. 資金・財務', to: '/docs/課題マップ/F_資金・財務' },
             { label: 'G. データ・AI対応', to: '/docs/課題マップ/G_データ・AI対応' },
+            { label: 'H. 売上・顧客獲得', to: '/docs/課題マップ/H_売上・顧客獲得' },
           ],
         },
         {
